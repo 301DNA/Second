@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS Goods (
+	GoodsId INT  AUTO_INCREMENT  PRIMARY KEY,
+	TypeId INT, 
+	SaleOrBuy TINYINT,
+	GoodsName VARCHAR(50),
+	GoodsDetail VARCHAR(1000),
+	ImageURL VARCHAR(100),
+	Price VARCHAR(50),
+	StartTime  DATETIME,
+	OldNew  VARCHAR(50),
+	Phone VARCHAR(50),
+	IsOver  TINYINT,
+	OwnerId  VARCHAR(50),
+	ClickTimes  INT
+);
